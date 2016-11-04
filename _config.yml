@@ -231,7 +231,7 @@ compress_html:
     envs: development
 
 
-# Defaults
+# Defaults posts
 defaults:
   # _posts
   - scope:
@@ -244,7 +244,16 @@ defaults:
       comments: # true
       share: true
       related: true
-      
+    
+  
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
 #Add pages to include
 include: ["_pages"]
