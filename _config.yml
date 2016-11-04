@@ -245,4 +245,6 @@ defaults:
       share: true
       related: true
       
-      
+
+#Add pages to include
+include: ["_pages"]
