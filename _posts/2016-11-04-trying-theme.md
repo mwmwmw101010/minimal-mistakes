@@ -2,6 +2,4 @@
 
 Really cool!
 
-*First
-*Second
-  *Some!
+
